@@ -86,7 +86,7 @@ azure-voting-app-redis
 The following command uses the sample `docker-compose.yaml` file to create the container image, download the Redis image, and start the application.
 
 ```console
-docker compose up -d
+docker-compose up -d
 ```
 
 When completed, use the [`docker images`][docker-images] command to see the created images. Two images are downloaded or created. The *azure-vote-front* image contains the front-end application. The *redis* image is used to start a Redis instance.
